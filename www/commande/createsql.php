@@ -1,7 +1,7 @@
 <?php
 require_once '/var/www/vendor/autoload.php';
-require_once 'www/ressources/donnees.php';
-require_once 'www/includes/function.php';
+require_once '/var/www/ressources/donnees.php';
+require_once '/var/www/includes/function.php';
 
 $pdo = new PDO('mysql:host=blog.mysql;dbname=blog', 'userblog', 'blogpwd');
 

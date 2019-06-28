@@ -1,6 +1,6 @@
 <?php
 require_once 'vendor/autoload.php';
-require_once 'config.php';
+
 date_default_timezone_set('Europe/Paris') ;
 /**
 * retourne le nom du dossier
